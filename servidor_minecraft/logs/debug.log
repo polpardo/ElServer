@@ -26854,3 +26854,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [02May2025 22:14:18.836] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [02May2025 22:14:18.880] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [02May2025 22:16:41.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab was slain by Zombie
+[02May2025 22:19:18.804] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[02May2025 22:19:18.828] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[02May2025 22:19:39.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab was shot by Skeleton
+[02May2025 22:24:18.794] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[02May2025 22:24:18.815] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
