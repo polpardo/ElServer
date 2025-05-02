@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "d3795d26-18d4-4215-9220-7a82e5c8a663",
+    "name": "genaraab",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
