@@ -1,0 +1,6 @@
+
+#Common Settings
+[common]
+	#Disable / enable any items here (disables their recipes)
+	enabledItems = ["sophisticatedbackpacks:void_upgrade|true", "sophisticatedbackpacks:advanced_refill_upgrade|true", "sophisticatedbackpacks:advanced_pickup_upgrade|true", "sophisticatedbackpacks:jukebox_upgrade|true", "sophisticatedbackpacks:advanced_magnet_upgrade|true", "sophisticatedbackpacks:advanced_tool_swapper_upgrade|true", "sophisticatedbackpacks:xp_pump_upgrade|true", "sophisticatedbackpacks:tank_upgrade|true", "sophisticatedbackpacks:stack_upgrade_tier_4|true", "sophisticatedbackpacks:advanced_pump_upgrade|true", "sophisticatedbackpacks:upgrade_base|true", "sophisticatedbackpacks:filter_upgrade|true", "sophisticatedbackpacks:magnet_upgrade|true", "sophisticatedbackpacks:advanced_jukebox_upgrade|true", "sophisticatedbackpacks:blasting_upgrade|true", "sophisticatedbackpacks:refill_upgrade|true", "sophisticatedbackpacks:auto_blasting_upgrade|true", "sophisticatedbackpacks:deposit_upgrade|true"]
+

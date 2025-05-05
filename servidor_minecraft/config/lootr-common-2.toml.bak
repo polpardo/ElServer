@@ -1,0 +1,9 @@
+#determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
+randomise_seed = true
+#the maximum age for containers; entries above this age will be discarded [default: 60 * 20 * 15, fifteen minutes] [note: the value 6000 will be corrected to 18000. if you wish to use 6000, please use 6001 or 5999.]
+#Range: > 0
+max_age = 18000
+#if true, no chests will be converted
+disable = false
+convert_mineshafts = true
+

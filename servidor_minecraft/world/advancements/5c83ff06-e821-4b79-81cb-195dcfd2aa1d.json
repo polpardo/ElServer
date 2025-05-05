@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "create_ltab:plains": {
-    "criteria": {
-      "gugu": "2025-05-04 23:52:07 +0000"
-    },
-    "done": true
-  },
   "create:root": {
     "criteria": {
       "0": "2025-05-04 23:52:06 +0000"
@@ -29,21 +23,9 @@
     },
     "done": true
   },
-  "vinery:recipes/dirt_slab": {
-    "criteria": {
-      "has_dirt": "2025-05-04 23:54:59 +0000"
-    },
-    "done": true
-  },
   "irons_spellbooks:grant_patchouli": {
     "criteria": {
       "tick": "2025-05-04 23:52:06 +0000"
-    },
-    "done": true
-  },
-  "vinery:main/fruits_of_the_field": {
-    "criteria": {
-      "fruits_of_the_field": "2025-05-04 23:52:07 +0000"
     },
     "done": true
   },
@@ -53,21 +35,9 @@
     },
     "done": true
   },
-  "excessive_building:recipes/decorations/dirt_slab": {
-    "criteria": {
-      "has_dirt": "2025-05-04 23:54:59 +0000"
-    },
-    "done": true
-  },
   "bakery:main/root": {
     "criteria": {
       "seeds": "2025-05-04 23:52:06 +0000"
-    },
-    "done": true
-  },
-  "bakery:recipes/oat_seeds": {
-    "criteria": {
-      "has_wheat_seeds": "2025-05-04 23:53:47 +0000"
     },
     "done": true
   },
@@ -101,12 +71,324 @@
     },
     "done": true
   },
+  "create_ltab:plains": {
+    "criteria": {
+      "gugu": "2025-05-04 23:52:07 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/fruits_of_the_field": {
+    "criteria": {
+      "fruits_of_the_field": "2025-05-04 23:52:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:sparse_jungle": "2025-05-04 23:55:09 +0000",
       "minecraft:plains": "2025-05-04 23:52:07 +0000"
     },
     "done": false
+  },
+  "bakery:recipes/oat_seeds": {
+    "criteria": {
+      "has_wheat_seeds": "2025-05-04 23:53:47 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/dirt_slab": {
+    "criteria": {
+      "has_dirt": "2025-05-04 23:54:59 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/decorations/dirt_slab": {
+    "criteria": {
+      "has_dirt": "2025-05-04 23:54:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/cabinet": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/cyan_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/rolling_pin": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/white_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/green_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/sc_manual": {
+    "criteria": {
+      "has_wood": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/wall_cabinet": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/chocolate_box": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/stackable_log": {
+    "criteria": {
+      "has_oak_log": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_gray_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/blue_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/hollow_oak_log": {
+    "criteria": {
+      "has_oak_log": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/purple_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/red_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/street_sign": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/earplugs": {
+    "criteria": {
+      "has_item": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/magenta_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/drawer": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/tray": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/grapevine_stem": {
+    "criteria": {
+      "has_oak_log": "2025-05-05 00:06:07 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/lime_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/black_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/oak_wine_rack_big": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/pink_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/orange_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/oak_wine_rack_small": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/brown_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/decorative_shelf": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/oak_window": {
+    "criteria": {
+      "has_ingredient": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/yellow_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_blue_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/brick_counter": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/gray_oak_crib": {
+    "criteria": {
+      "has_oak_planks": "2025-05-05 00:06:16 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
