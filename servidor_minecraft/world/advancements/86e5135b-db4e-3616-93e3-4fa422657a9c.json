@@ -87,9 +87,9 @@
     },
     "done": true
   },
-  "excessive_building:recipes/building_blocks/grass_slab": {
+  "bakery:recipes/oat_seeds": {
     "criteria": {
-      "has_grass_block": "2025-05-05 22:01:29 +0000"
+      "has_wheat_seeds": "2025-05-05 21:54:29 +0000"
     },
     "done": true
   },
@@ -99,23 +99,23 @@
     },
     "done": true
   },
-  "vinery:recipes/grass_slab": {
-    "criteria": {
-      "has_grass_block": "2025-05-05 22:01:29 +0000"
-    },
-    "done": true
-  },
-  "bakery:recipes/oat_seeds": {
-    "criteria": {
-      "has_wheat_seeds": "2025-05-05 21:54:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:river": "2025-05-05 21:56:49 +0000"
     },
     "done": false
+  },
+  "excessive_building:recipes/building_blocks/grass_slab": {
+    "criteria": {
+      "has_grass_block": "2025-05-05 22:01:29 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/grass_slab": {
+    "criteria": {
+      "has_grass_block": "2025-05-05 22:01:29 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
