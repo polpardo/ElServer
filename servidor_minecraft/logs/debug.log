@@ -27279,3 +27279,117 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [05May2025 00:22:35.955] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [05May2025 00:27:35.936] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [05May2025 00:27:35.958] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05May2025 00:30:10.270] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaraab lost connection: Disconnected
+[05May2025 00:30:10.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab left the game
+[05May2025 00:30:12.870] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[05May2025 00:30:12.870] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@b952a3f, suppressing error
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.geforcemods.securitycraft.blockentities.KeypadChestBlockEntity.onLoad(KeypadChestBlockEntity.java:139) ~[%5B1.20.1%5D%20SecurityCraft%20v1.10.jar%23152!/:1.10]
+	at net.minecraft.world.level.chunk.LevelChunk.m_142170_(LevelChunk.java:335) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_6978_(LevelChunk.java:265) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.item.BlockItem.m_7429_(BlockItem.java:163) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.item.BlockItem.m_40576_(BlockItem.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.item.BlockItem.m_6225_(BlockItem.java:46) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23210!/:?]
+	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05May2025 00:30:19.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[05May2025 00:30:19.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SAVE-ALL<--[HERE]
+[05May2025 00:30:20.066] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[05May2025 00:30:20.066] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@18319427, suppressing error
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.geforcemods.securitycraft.blockentities.KeypadChestBlockEntity.onLoad(KeypadChestBlockEntity.java:139) ~[%5B1.20.1%5D%20SecurityCraft%20v1.10.jar%23152!/:1.10]
+	at net.minecraft.world.level.chunk.LevelChunk.m_142170_(LevelChunk.java:335) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_6978_(LevelChunk.java:265) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.item.BlockItem.m_7429_(BlockItem.java:163) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.item.BlockItem.m_40576_(BlockItem.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.item.BlockItem.m_6225_(BlockItem.java:46) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:585) ~[forge-1.20.1-47.3.7-universal.jar%23210!/:?]
+	at net.minecraft.world.item.ItemStack.m_41661_(ItemStack.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05May2025 00:30:23.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[05May2025 00:30:23.341] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05May2025 00:30:23.363] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05May2025 00:30:23.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[05May2025 00:30:28.135] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[05May2025 00:30:46.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[05May2025 00:30:46.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05May2025 00:30:46.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05May2025 00:30:46.858] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[05May2025 00:30:46.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[05May2025 00:30:46.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05May2025 00:30:47.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05May2025 00:30:48.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05May2025 00:30:48.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05May2025 00:30:48.212] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05May2025 00:30:48.230] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05May2025 00:30:48.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05May2025 00:30:48.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05May2025 00:30:48.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05May2025 00:30:48.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05May2025 00:30:48.262] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:overworld
+[05May2025 00:30:48.262] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:overworld
+[05May2025 00:30:48.286] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:the_end
+[05May2025 00:30:48.286] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:the_end
+[05May2025 00:30:48.287] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Redstone Network Space for minecraft:the_nether
+[05May2025 00:30:48.287] [Server thread/DEBUG] [com.simibubi.create.Create/]: Removed Kinetic Network Space for minecraft:the_nether
+[05May2025 00:30:48.289] [Server thread/DEBUG] [SpectreLib/CONFIG]: Unloading server configs
+[05May2025 00:30:48.289] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

@@ -121,6 +121,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/decorations/tables/scorched_forge": {
+    "criteria": {
+      "has_item": "2025-05-05 00:28:02 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/transportation/birch_security_sea_boat": {
     "criteria": {
       "has_keypad_chest": "2025-05-05 00:24:12 +0000"
@@ -166,6 +172,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2025-05-05 00:25:05 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/grass_slab": {
+    "criteria": {
+      "has_grass_block": "2025-05-05 00:30:41 +0000"
     },
     "done": true
   },
@@ -271,6 +283,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/decorations/tables/scorched_anvil": {
+    "criteria": {
+      "has_item": "2025-05-05 00:28:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-05-05 00:06:16 +0000"
@@ -298,6 +316,12 @@
   "securitycraft:recipes/transportation/cherry_security_sea_boat": {
     "criteria": {
       "has_keypad_chest": "2025-05-05 00:24:12 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2025-05-05 00:27:48 +0000"
     },
     "done": true
   },
@@ -463,6 +487,12 @@
     },
     "done": true
   },
+  "vinery:recipes/grass_slab": {
+    "criteria": {
+      "has_grass_block": "2025-05-05 00:30:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-05-05 00:17:46 +0000"
@@ -487,9 +517,21 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-05-05 00:28:02 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/speedometer": {
     "criteria": {
       "has_item": "2025-05-05 00:20:00 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/tables/tinkers_anvil": {
+    "criteria": {
+      "has_item": "2025-05-05 00:28:02 +0000"
     },
     "done": true
   },
@@ -643,6 +685,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-05-05 00:27:48 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/logistics/andesite_tunnel": {
     "criteria": {
       "has_item": "2025-05-05 00:20:00 +0000"
@@ -784,6 +832,12 @@
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2025-05-05 00:17:46 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/tables/tinkers_forge": {
+    "criteria": {
+      "has_item": "2025-05-05 00:28:02 +0000"
     },
     "done": true
   },
