@@ -20484,3 +20484,27 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [06May2025 00:56:55.215] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-36, y=-58, z=4}
 [06May2025 00:56:55.215] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-42, y=-58, z=4}
 [06May2025 00:57:06.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Mine? Mine? Mine?]
+[06May2025 00:57:42.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaraab> hay un poco de lag
+[06May2025 00:57:54.589] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaraab lost connection: Timed out
+[06May2025 00:57:54.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab left the game
+[06May2025 00:58:16.997] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaraab[/100.120.29.42:54841] logged in with entity id 26423 at (210.34039125221756, -9.0, 250.6225257907362)
+[06May2025 00:58:17.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab joined the game
+[06May2025 01:00:52.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaraab> duerman putas
+[06May2025 01:01:06.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> asi le hablas a tu mama?
+[06May2025 01:01:11.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <genaraab> si
+[06May2025 01:01:33.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Agus2000> hay monstruoes cerca
+[06May2025 01:05:10.368] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=9}
+[06May2025 01:05:10.369] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=9}
+[06May2025 01:05:10.369] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=0}
+[06May2025 01:05:10.369] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=0}
+[06May2025 01:05:10.369] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=4}
+[06May2025 01:05:10.369] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=4}
+[06May2025 01:05:14.575] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-51, y=-58, z=8}
+[06May2025 01:05:14.576] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=8}
+[06May2025 01:05:14.576] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-49, y=-58, z=3}
+[06May2025 01:05:14.576] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=3}
+[06May2025 01:05:14.576] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-49, y=-58, z=-1}
+[06May2025 01:05:14.576] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=-1}
+[06May2025 01:05:45.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made genaraab a server operator
+[06May2025 01:05:56.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [genaraab: Saved the game]
+[06May2025 01:06:16.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [genaraab: Set own game mode to Spectator Mode]
