@@ -20108,3 +20108,45 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [06May2025 00:16:26.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab has made the advancement [Suit Up]
 [06May2025 00:16:32.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab has made the advancement [Barrel Booty]
 [06May2025 00:16:36.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab has made the advancement [Sweet Dreams]
+[06May2025 00:17:59.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.100.236.75:8378] logged in with entity id 4536 at (5.5, 69.0, -9.5)
+[06May2025 00:18:00.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[06May2025 00:19:16.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab has made the advancement [Acquire Hardware]
+[06May2025 00:19:32.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab has made the advancement [Isn't It Iron Pick]
+[06May2025 00:21:59.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Weckstone) moved wrongly! 0.45853973564269523
+[06May2025 00:21:59.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Weckstone) moved wrongly! 0.6716540620302496
+[06May2025 00:21:59.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Weckstone) moved wrongly! 0.882830801774432
+[06May2025 00:21:59.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Weckstone) moved wrongly! 1.0554533970024806
+[06May2025 00:21:59.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Weckstone) moved wrongly! 1.226312809684174
+[06May2025 00:22:00.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Weckstone) moved wrongly! 0.25918100160788526
+[06May2025 00:22:16.245] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:16.245] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:16.245] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:16.245] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:43.716] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:43.716] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:43.716] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:22:43.716] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[06May2025 00:24:57.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone was kicked for floating too long!
+[06May2025 00:24:57.234] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone lost connection: Disconnected
+[06May2025 00:24:57.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone left the game
+[06May2025 00:24:57.287] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06May2025 00:25:02.093] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=9}
+[06May2025 00:25:02.093] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=9}
+[06May2025 00:25:02.093] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=0}
+[06May2025 00:25:02.094] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=0}
+[06May2025 00:25:02.094] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=4}
+[06May2025 00:25:02.094] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=4}
+[06May2025 00:25:26.633] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-51, y=-58, z=8}
+[06May2025 00:25:26.633] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=8}
+[06May2025 00:25:26.634] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-49, y=-58, z=3}
+[06May2025 00:25:26.634] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=3}
+[06May2025 00:25:26.634] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-49, y=-58, z=-1}
+[06May2025 00:25:26.635] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=-1}
+[06May2025 00:26:00.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VITTTTTA has made the advancement [Barrel Booty]
+[06May2025 00:26:07.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VITTTTTA has made the advancement ['X' Marks the Spot]
+[06May2025 00:26:09.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.100.236.75:50545] logged in with entity id 7661 at (192.58426284700099, 70.00133597911214, 72.67590562317292)
+[06May2025 00:26:09.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[06May2025 00:26:09.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Minecraft Comes Alive]
+[06May2025 00:26:13.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VITTTTTA has made the advancement [Diamonds!]
+[06May2025 00:26:15.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VITTTTTA has made the advancement [Amateur Archaeologist]
+[06May2025 00:26:19.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VITTTTTA has made the advancement [Isn't It Iron Pick]
