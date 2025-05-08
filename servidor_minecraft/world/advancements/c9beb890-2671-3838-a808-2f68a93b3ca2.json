@@ -379,7 +379,8 @@
       "minecraft:ocean": "2025-05-06 00:51:59 +0000",
       "minecraft:jungle": "2025-05-08 00:20:32 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:30 +0000",
-      "minecraft:old_growth_birch_forest": "2025-05-08 00:59:42 +0000"
+      "minecraft:old_growth_birch_forest": "2025-05-08 00:59:42 +0000",
+      "minecraft:savanna": "2025-05-08 01:12:15 +0000"
     },
     "done": false
   },
@@ -3405,6 +3406,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 01:11:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2025-05-08 00:33:26 +0000"
@@ -3420,6 +3427,12 @@
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-05-08 01:10:37 +0000"
     },
     "done": true
   },
@@ -3444,6 +3457,12 @@
   "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2025-05-08 01:03:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 01:11:09 +0000"
     },
     "done": true
   },
@@ -3531,6 +3550,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 01:11:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-08 01:03:43 +0000"
@@ -3558,6 +3583,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2025-05-08 01:03:45 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/brewing/common/slime/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 01:11:09 +0000"
     },
     "done": true
   },
@@ -3594,6 +3625,12 @@
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_smelts_to_glass": "2025-05-08 00:42:12 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-05-08 01:14:37 +0000"
     },
     "done": true
   },
@@ -3747,6 +3784,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-05-08 01:10:37 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/skelewag": {
     "criteria": {
       "killed_by": "2025-05-08 00:53:45 +0000"
@@ -3765,6 +3808,12 @@
     },
     "done": true
   },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2025-05-08 01:10:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-08 01:03:43 +0000"
@@ -3774,6 +3823,12 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-05-08 01:07:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-05-08 01:10:37 +0000"
     },
     "done": true
   },
