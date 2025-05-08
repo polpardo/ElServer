@@ -360,10 +360,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2025-05-06 00:52:21 +0000",
+      "minecraft:bamboo_jungle": "2025-05-08 00:20:20 +0000",
+      "minecraft:wooded_badlands": "2025-05-08 00:26:32 +0000",
       "minecraft:beach": "2025-05-07 23:23:36 +0000",
+      "minecraft:sparse_jungle": "2025-05-08 00:20:39 +0000",
       "minecraft:lukewarm_ocean": "2025-05-06 00:52:36 +0000",
       "minecraft:river": "2025-05-06 00:10:48 +0000",
+      "minecraft:forest": "2025-05-08 00:14:21 +0000",
       "minecraft:ocean": "2025-05-06 00:51:59 +0000",
+      "minecraft:jungle": "2025-05-08 00:20:32 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:30 +0000"
     },
     "done": false
@@ -1110,6 +1115,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2025-05-06 00:46:34 +0000",
+      "apple": "2025-05-08 00:28:19 +0000",
       "bread": "2025-05-06 00:27:46 +0000",
       "cooked_chicken": "2025-05-06 00:15:50 +0000",
       "carrot": "2025-05-06 00:24:55 +0000"
@@ -1120,6 +1126,7 @@
     "criteria": {
       "minecraft:pillager": "2025-05-06 00:45:25 +0000",
       "minecraft:skeleton": "2025-05-07 23:24:26 +0000",
+      "minecraft:vindicator": "2025-05-08 00:33:06 +0000",
       "minecraft:spider": "2025-05-06 00:16:22 +0000",
       "minecraft:cave_spider": "2025-05-06 00:33:49 +0000",
       "minecraft:zombie": "2025-05-06 00:21:34 +0000",
@@ -3343,6 +3350,150 @@
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_emerald_block": "2025-05-07 23:57:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-05-08 00:42:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-05-08 00:33:26 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/forbidden_fruit": {
+    "criteria": {
+      "apple": "2025-05-08 00:27:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2025-05-08 00:34:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-05-08 00:27:41 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/gold_grate": {
+    "criteria": {
+      "has_gold_block": "2025-05-08 00:42:03 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone": {
+    "criteria": {
+      "has_orange_sand": "2025-05-08 00:42:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-05-08 00:33:26 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2025-05-08 00:34:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-05-08 00:26:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-05-08 00:42:12 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2025-05-08 00:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2025-05-08 00:34:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+    "criteria": {
+      "requirement": "2025-05-08 00:38:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-05-08 00:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-05-08 00:35:45 +0000"
     },
     "done": true
   },

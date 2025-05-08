@@ -2655,6 +2655,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-05-08 00:18:26 +0000"
+    },
+    "done": true
+  },
   "bakery:recipes/iron_table": {
     "criteria": {
       "has_iron_ingot": "2025-05-07 23:26:20 +0000"
