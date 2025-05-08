@@ -2226,6 +2226,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-05-06 00:55:41 +0000",
       "minecraft:spider": "2025-05-06 00:42:01 +0000",
+      "minecraft:cave_spider": "2025-05-08 00:58:02 +0000",
       "minecraft:zombie": "2025-05-06 00:34:34 +0000"
     },
     "done": false
@@ -2992,6 +2993,12 @@
     },
     "done": true
   },
+  "bakery:recipes/butter": {
+    "criteria": {
+      "has_water_bucket": "2025-05-08 00:46:37 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/steam_engine": {
     "criteria": {
       "has_item": "2025-05-08 00:30:17 +0000"
@@ -3130,6 +3137,12 @@
     },
     "done": true
   },
+  "bakery:recipes/yeast": {
+    "criteria": {
+      "has_the_recipe": "2025-05-08 00:46:37 +0000"
+    },
+    "done": true
+  },
   "create:recipes/decorations/copper_table_cloth_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2025-05-08 00:30:17 +0000"
@@ -3187,6 +3200,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-05-08 00:39:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-08 00:46:37 +0000"
     },
     "done": true
   },
@@ -3391,6 +3410,12 @@
   "mca:recipes/misc/potions": {
     "criteria": {
       "has_item": "2025-05-07 23:25:31 +0000"
+    },
+    "done": true
+  },
+  "immersive_paintings:misc/graffiti": {
+    "criteria": {
+      "has_item": "2025-05-08 00:45:48 +0000"
     },
     "done": true
   },

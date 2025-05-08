@@ -85,9 +85,11 @@
       "lush_savanna": "2025-05-07 23:55:51 +0000",
       "highland": "2025-05-06 00:12:49 +0000",
       "jacaranda_glade": "2025-05-06 00:37:33 +0000",
+      "marsh": "2025-05-08 00:57:45 +0000",
       "mystic_grove": "2025-05-06 00:55:55 +0000",
       "old_growth_woodland": "2025-05-07 23:24:35 +0000",
       "orchard": "2025-05-06 00:41:26 +0000",
+      "overgrown_greens": "2025-05-08 00:58:21 +0000",
       "coniferous_forest": "2025-05-06 00:40:03 +0000",
       "spider_nest": "2025-05-06 00:10:12 +0000",
       "wasteland": "2025-05-07 23:51:06 +0000",
@@ -101,6 +103,7 @@
       "lavender_field": "2025-05-06 00:37:06 +0000",
       "pumpkin_patch": "2025-05-06 00:39:37 +0000",
       "prairie": "2025-05-05 23:55:05 +0000",
+      "gravel_beach": "2025-05-08 00:54:26 +0000",
       "rainforest": "2025-05-07 23:26:13 +0000"
     },
     "done": false
@@ -359,14 +362,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-05-08 00:53:43 +0000",
       "minecraft:deep_ocean": "2025-05-06 00:52:21 +0000",
       "minecraft:bamboo_jungle": "2025-05-08 00:20:20 +0000",
       "minecraft:wooded_badlands": "2025-05-08 00:26:32 +0000",
       "minecraft:beach": "2025-05-07 23:23:36 +0000",
+      "minecraft:dark_forest": "2025-05-08 00:58:09 +0000",
       "minecraft:sparse_jungle": "2025-05-08 00:20:39 +0000",
       "minecraft:lukewarm_ocean": "2025-05-06 00:52:36 +0000",
       "minecraft:river": "2025-05-06 00:10:48 +0000",
+      "minecraft:cold_ocean": "2025-05-08 00:50:51 +0000",
       "minecraft:forest": "2025-05-08 00:14:21 +0000",
+      "minecraft:deep_cold_ocean": "2025-05-08 00:46:35 +0000",
       "minecraft:ocean": "2025-05-06 00:51:59 +0000",
       "minecraft:jungle": "2025-05-08 00:20:32 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:30 +0000"
@@ -3359,6 +3366,18 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-05-08 00:51:46 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:world/earth_island": {
+    "criteria": {
+      "found_island": "2025-05-08 00:50:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2025-05-08 00:33:26 +0000"
@@ -3392,6 +3411,12 @@
   "excessive_building:recipes/building_blocks/gold_grate": {
     "criteria": {
       "has_gold_block": "2025-05-08 00:42:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-05-08 00:47:33 +0000"
     },
     "done": true
   },
@@ -3473,6 +3498,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-05-08 00:53:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-05-08 00:35:45 +0000"
@@ -3494,6 +3525,18 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-05-08 00:35:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-05-08 00:53:51 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skelewag": {
+    "criteria": {
+      "killed_by": "2025-05-08 00:53:45 +0000"
     },
     "done": true
   },
