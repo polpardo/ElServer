@@ -80,7 +80,9 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "woodland": "2025-05-07 23:24:44 +0000",
+      "fungal_jungle": "2025-05-07 23:46:38 +0000",
       "floodplain": "2025-05-07 23:26:27 +0000",
+      "lush_savanna": "2025-05-07 23:55:51 +0000",
       "highland": "2025-05-06 00:12:49 +0000",
       "jacaranda_glade": "2025-05-06 00:37:33 +0000",
       "mystic_grove": "2025-05-06 00:55:55 +0000",
@@ -88,10 +90,13 @@
       "orchard": "2025-05-06 00:41:26 +0000",
       "coniferous_forest": "2025-05-06 00:40:03 +0000",
       "spider_nest": "2025-05-06 00:10:12 +0000",
+      "wasteland": "2025-05-07 23:51:06 +0000",
+      "lush_desert": "2025-05-07 23:47:11 +0000",
       "redwood_forest": "2025-05-06 00:41:08 +0000",
       "aspen_glade": "2025-05-06 00:39:26 +0000",
       "dune_beach": "2025-05-06 00:49:33 +0000",
       "pasture": "2025-05-06 00:09:54 +0000",
+      "rocky_rainforest": "2025-05-07 23:45:32 +0000",
       "volcanic_plains": "2025-05-07 23:24:55 +0000",
       "lavender_field": "2025-05-06 00:37:06 +0000",
       "pumpkin_patch": "2025-05-06 00:39:37 +0000",
@@ -2881,9 +2886,141 @@
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
-      "deflected_projectile": "2025-05-07 23:36:48 +0000"
+      "has_iron_pickaxe": "2025-05-07 23:20:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-05-07 23:20:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-05-07 23:20:49 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/emerald_bricks": {
+    "criteria": {
+      "has_emerald": "2025-05-07 23:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-05-07 23:21:59 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-05-07 23:21:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mahogany_wood": {
+    "criteria": {
+      "has_log": "2025-05-07 23:26:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mahogany_planks": {
+    "criteria": {
+      "has_logs": "2025-05-07 23:26:51 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mahogany_slab": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/mahogany_fence": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/mahogany_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/mahogany_button": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/mahogany_door": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/mahogany_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/mahogany_sign": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/mahogany_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mahogany_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-07 23:26:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 23:28:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-05-07 23:28:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-05-07 23:28:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-05-07 23:28:52 +0000"
+    },
+    "done": true
+  },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2025-05-07 23:28:59 +0000"
+    },
+    "done": true
+  },
+  "bakery:main/find_wild_crops": {
+    "criteria": {
+      "tomato_seeds": "2025-05-07 23:29:02 +0000"
     },
     "done": true
   },
@@ -2905,51 +3042,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-05-07 23:31:49 +0000"
-    },
-    "done": true
-  },
-  "bakery:recipes/butter": {
-    "criteria": {
-      "has_water_bucket": "2025-05-07 23:38:44 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-05-07 23:29:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-05-07 23:43:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_carpet": {
-    "criteria": {
-      "has_green_wool": "2025-05-07 23:39:02 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/mahogany_slab": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/baked_cod_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-07 23:28:52 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/mahogany_wood": {
-    "criteria": {
-      "has_log": "2025-05-07 23:26:51 +0000"
     },
     "done": true
   },
@@ -2965,99 +3060,9 @@
     },
     "done": true
   },
-  "excessive_building:recipes/building_blocks/emerald_bricks": {
-    "criteria": {
-      "has_emerald": "2025-05-07 23:21:59 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/mahogany_planks": {
-    "criteria": {
-      "has_logs": "2025-05-07 23:26:51 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/mahogany_fence": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-05-07 23:31:49 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/mahogany_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2025-05-07 23:31:49 +0000"
-    },
-    "done": true
-  },
-  "bakery:main/find_wild_crops": {
-    "criteria": {
-      "tomato_seeds": "2025-05-07 23:29:02 +0000"
-    },
-    "done": true
-  },
-  "bakery:recipes/yeast": {
-    "criteria": {
-      "has_the_recipe": "2025-05-07 23:38:44 +0000"
-    },
-    "done": true
-  },
-  "lootr:50loot": {
-    "criteria": {
-      "loot_stat": "2025-05-07 23:34:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_bed": {
-    "criteria": {
-      "has_green_wool": "2025-05-07 23:39:02 +0000"
-    },
-    "done": true
-  },
-  "lootr:25loot": {
-    "criteria": {
-      "loot_stat": "2025-05-07 23:30:13 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/mahogany_button": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-05-07 23:29:25 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_green": {
-    "criteria": {
-      "has_green_wool": "2025-05-07 23:39:02 +0000"
-    },
-    "done": true
-  },
-  "tconstruct:world/ancient_tools": {
-    "criteria": {
-      "war_pick": "2025-05-07 23:30:20 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-05-07 23:38:44 +0000"
     },
     "done": true
   },
@@ -3070,18 +3075,6 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-05-07 23:29:25 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/mahogany_door": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "excessive_building:recipes/building_blocks/hollow_dark_oak_log": {
-    "criteria": {
-      "has_dark_oak_log": "2025-05-07 23:34:32 +0000"
     },
     "done": true
   },
@@ -3103,77 +3096,29 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
-    "criteria": {
-      "has_iron_pickaxe": "2025-05-07 23:20:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
-    "criteria": {
-      "has_potato": "2025-05-07 23:28:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2025-05-07 23:20:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2025-05-07 23:28:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_banner": {
-    "criteria": {
-      "has_green_wool": "2025-05-07 23:39:02 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/rose_gold_dust": {
-    "criteria": {
-      "has_item": "2025-05-07 23:31:49 +0000"
-    },
-    "done": true
-  },
-  "excessive_building:recipes/building_blocks/knitted_green_wool": {
-    "criteria": {
-      "has_green_wool": "2025-05-07 23:39:02 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/mahogany_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2025-05-07 23:21:59 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/mahogany_sign": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-05-07 23:29:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
+  "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
-      "has_log": "2025-05-07 23:34:32 +0000"
+      "has_diamond": "2025-05-07 23:29:25 +0000"
     },
     "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2025-05-07 23:30:13 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:world/ancient_tools": {
+    "criteria": {
+      "war_pick": "2025-05-07 23:30:20 +0000"
+    },
+    "done": false
   },
   "tconstruct:tools/tinker_tool": {
     "criteria": {
@@ -3197,9 +3142,45 @@
     },
     "done": false
   },
-  "lootr:10loot": {
+  "tconstruct:tools/netherite_tier": {
     "criteria": {
-      "loot_stat": "2025-05-07 23:28:59 +0000"
+      "harvest_level": "2025-05-07 23:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-05-07 23:31:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-05-07 23:31:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-05-07 23:31:49 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2025-05-07 23:31:49 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/hollow_dark_oak_log": {
+    "criteria": {
+      "has_dark_oak_log": "2025-05-07 23:34:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-05-07 23:34:32 +0000"
     },
     "done": true
   },
@@ -3209,51 +3190,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
+  "lootr:50loot": {
     "criteria": {
-      "has_potato": "2025-05-07 23:28:52 +0000"
-    },
-    "done": true
-  },
-  "immersive_paintings:misc/graffiti": {
-    "criteria": {
-      "has_item": "2025-05-07 23:37:50 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_green": {
-    "criteria": {
-      "has_green_wool": "2025-05-07 23:39:02 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/mahogany_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/mahogany_stairs": {
-    "criteria": {
-      "has_planks": "2025-05-07 23:26:59 +0000"
-    },
-    "done": true
-  },
-  "tconstruct:tools/netherite_tier": {
-    "criteria": {
-      "harvest_level": "2025-05-07 23:30:20 +0000"
-    },
-    "done": true
-  },
-  "artifacts:amateur_archaeologist": {
-    "criteria": {
-      "find_artifact": "2025-05-07 23:21:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
-    "criteria": {
-      "has_iron_pickaxe": "2025-05-07 23:20:49 +0000"
+      "loot_stat": "2025-05-07 23:34:50 +0000"
     },
     "done": true
   },
@@ -3263,9 +3202,147 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_axe": {
+  "minecraft:story/deflect_arrow": {
     "criteria": {
-      "has_diamond": "2025-05-07 23:29:25 +0000"
+      "deflected_projectile": "2025-05-07 23:36:48 +0000"
+    },
+    "done": true
+  },
+  "immersive_paintings:misc/graffiti": {
+    "criteria": {
+      "has_item": "2025-05-07 23:37:50 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/butter": {
+    "criteria": {
+      "has_water_bucket": "2025-05-07 23:38:44 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/yeast": {
+    "criteria": {
+      "has_the_recipe": "2025-05-07 23:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-07 23:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_carpet": {
+    "criteria": {
+      "has_green_wool": "2025-05-07 23:39:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed": {
+    "criteria": {
+      "has_green_wool": "2025-05-07 23:39:02 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_green": {
+    "criteria": {
+      "has_green_wool": "2025-05-07 23:39:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_banner": {
+    "criteria": {
+      "has_green_wool": "2025-05-07 23:39:02 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/knitted_green_wool": {
+    "criteria": {
+      "has_green_wool": "2025-05-07 23:39:02 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_green": {
+    "criteria": {
+      "has_green_wool": "2025-05-07 23:39:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-05-07 23:43:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-07 23:44:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-05-07 23:44:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2025-05-07 23:44:17 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 23:48:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-05-07 23:48:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-05-07 23:52:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-05-07 23:52:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-05-07 23:52:32 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/hollow_stripped_dark_oak_log": {
+    "criteria": {
+      "has_stripped_dark_oak_log": "2025-05-07 23:56:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-07 23:56:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-07 23:56:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-05-07 23:57:28 +0000"
     },
     "done": true
   },

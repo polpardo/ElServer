@@ -1153,6 +1153,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-05-06 00:45:32 +0000",
+      "minecraft:skeleton": "2025-05-07 23:51:51 +0000",
       "minecraft:vindicator": "2025-05-06 00:45:26 +0000",
       "minecraft:zombie": "2025-05-06 00:39:03 +0000"
     },
@@ -2029,6 +2030,12 @@
     },
     "done": true
   },
+  "bakery:recipes/butter": {
+    "criteria": {
+      "has_water_bucket": "2025-05-07 23:52:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/storage_module": {
     "criteria": {
       "has_iron": "2025-05-07 23:26:20 +0000"
@@ -2118,6 +2125,13 @@
       "has_boat": "2025-05-07 23:33:16 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2025-05-07 23:58:16 +0000",
+      "carrot": "2025-05-07 23:58:54 +0000"
+    },
+    "done": false
   },
   "tconstruct:recipes/decorations/common/iron_platform": {
     "criteria": {
@@ -2233,6 +2247,12 @@
     },
     "done": true
   },
+  "bakery:recipes/yeast": {
+    "criteria": {
+      "has_the_recipe": "2025-05-07 23:52:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2025-05-07 23:26:20 +0000"
@@ -2272,6 +2292,12 @@
   "securitycraft:recipes/misc/trophy_system": {
     "criteria": {
       "has_iron": "2025-05-07 23:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-07 23:52:51 +0000"
     },
     "done": true
   },
@@ -2533,6 +2559,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-05-07 23:51:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2025-05-07 23:26:20 +0000"
@@ -2647,9 +2679,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-05-07 23:51:52 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/smart_module": {
     "criteria": {
       "has_iron": "2025-05-07 23:26:20 +0000"
+    },
+    "done": true
+  },
+  "immersive_paintings:misc/graffiti": {
+    "criteria": {
+      "has_item": "2025-05-07 23:45:14 +0000"
     },
     "done": true
   },
@@ -2674,6 +2718,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2025-05-07 23:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-05-07 23:58:16 +0000"
     },
     "done": true
   },
