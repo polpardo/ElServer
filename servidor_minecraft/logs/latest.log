@@ -20845,3 +20845,6 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [09May2025 02:13:02.978] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-42, y=-58, z=0}
 [09May2025 02:13:02.978] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-36, y=-58, z=4}
 [09May2025 02:13:02.978] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-42, y=-58, z=4}
+[09May2025 02:17:33.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 cooked in Pyromancer's fiery field
+[09May2025 02:20:57.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 couldn't take Pyromancer's heat
+[09May2025 02:24:47.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Cover Me with Diamonds]

@@ -4431,5 +4431,11 @@
     },
     "done": false
   },
+  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-05-09 02:10:24 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
