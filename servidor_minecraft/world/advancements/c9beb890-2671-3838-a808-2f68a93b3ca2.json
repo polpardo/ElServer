@@ -1157,6 +1157,7 @@
       "minecraft:skeleton": "2025-05-07 23:24:26 +0000",
       "minecraft:vindicator": "2025-05-08 00:33:06 +0000",
       "minecraft:spider": "2025-05-06 00:16:22 +0000",
+      "minecraft:creeper": "2025-05-09 22:41:31 +0000",
       "minecraft:cave_spider": "2025-05-06 00:33:49 +0000",
       "minecraft:zombie": "2025-05-06 00:21:34 +0000",
       "minecraft:drowned": "2025-05-06 01:01:41 +0000"
@@ -4432,15 +4433,9 @@
     },
     "done": false
   },
-  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
     "criteria": {
-      "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
-    "criteria": {
-      "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
+      "has_smooth_stone": "2025-05-09 02:10:24 +0000"
     },
     "done": true
   },
@@ -4450,9 +4445,27 @@
     },
     "done": true
   },
-  "create:recipes/misc/smelting/zinc_ingot_from_raw_ore": {
+  "minecraft:recipes/decorations/beehive": {
     "criteria": {
-      "has_item": "2025-05-09 02:33:21 +0000"
+      "has_honeycomb": "2025-05-09 02:26:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-05-09 02:26:31 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
     },
     "done": true
   },
@@ -4492,12 +4505,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/blasting/zinc_ingot_from_raw_ore": {
-    "criteria": {
-      "has_item": "2025-05-09 02:33:21 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
@@ -4510,12 +4517,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/beehive": {
-    "criteria": {
-      "has_honeycomb": "2025-05-09 02:26:31 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
@@ -4525,12 +4526,6 @@
   "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
     "criteria": {
       "has_stone_types_calcite": "2025-05-09 02:31:05 +0000"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
-    "criteria": {
-      "has_smooth_stone": "2025-05-09 02:10:24 +0000"
     },
     "done": true
   },
@@ -4576,15 +4571,27 @@
     },
     "done": true
   },
+  "create:recipes/misc/smelting/zinc_ingot_from_raw_ore": {
+    "criteria": {
+      "has_item": "2025-05-09 02:33:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_raw_ore": {
+    "criteria": {
+      "has_item": "2025-05-09 02:33:21 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/materials/raw_zinc_block": {
     "criteria": {
       "has_item": "2025-05-09 02:33:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/honeycomb_block": {
+  "alexsmobs:alexsmobs/seagull_steal": {
     "criteria": {
-      "has_honeycomb": "2025-05-09 02:26:31 +0000"
+      "ex": "2025-05-09 22:41:22 +0000"
     },
     "done": true
   },

@@ -2831,17 +2831,29 @@
     },
     "done": true
   },
-  "tconstruct:world/ancient_tools": {
-    "criteria": {
-      "swasher": "2025-05-09 01:50:03 +0000"
-    },
-    "done": false
-  },
   "farmersdelight:recipes/food/nether_salad": {
     "criteria": {
       "has_bowl": "2025-05-09 01:48:26 +0000"
     },
     "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-05-09 01:48:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-05-09 01:48:26 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:world/ancient_tools": {
+    "criteria": {
+      "swasher": "2025-05-09 01:50:03 +0000"
+    },
+    "done": false
   },
   "tconstruct:tools/tinker_tool": {
     "criteria": {
@@ -2855,18 +2867,6 @@
       "bamboo": "2025-05-09 01:50:03 +0000"
     },
     "done": false
-  },
-  "farmersdelight:recipes/food/mixed_salad": {
-    "criteria": {
-      "has_bowl": "2025-05-09 01:48:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_bowl": "2025-05-09 01:48:26 +0000"
-    },
-    "done": true
   },
   "DataVersion": 3465
 }
