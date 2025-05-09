@@ -374,6 +374,8 @@
     "criteria": {
       "cooked_porkchop": "2025-05-06 00:49:13 +0000",
       "apple": "2025-05-07 23:37:04 +0000",
+      "cooked_cod": "2025-05-09 01:54:21 +0000",
+      "pufferfish": "2025-05-09 01:43:36 +0000",
       "bread": "2025-05-06 00:31:15 +0000",
       "rotten_flesh": "2025-05-06 01:23:40 +0000",
       "cooked_chicken": "2025-05-07 23:43:24 +0000",
@@ -2766,6 +2768,103 @@
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_azure_bluet": "2025-05-08 00:18:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "pufferfish": "2025-05-09 01:43:15 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2025-05-09 01:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-05-09 01:44:31 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 01:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-05-09 01:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-05-09 01:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-05-09 01:45:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 01:45:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-05-09 01:45:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-05-09 01:45:04 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:world/ancient_tools": {
+    "criteria": {
+      "swasher": "2025-05-09 01:50:03 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-05-09 01:48:26 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tinker_tool": {
+    "criteria": {
+      "crafted_tool": "2025-05-09 01:50:03 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/material_master": {
+    "criteria": {
+      "bone": "2025-05-09 01:50:03 +0000",
+      "bamboo": "2025-05-09 01:50:03 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-05-09 01:48:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-05-09 01:48:26 +0000"
     },
     "done": true
   },
