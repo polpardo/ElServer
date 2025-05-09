@@ -20848,3 +20848,51 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [09May2025 02:17:33.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 cooked in Pyromancer's fiery field
 [09May2025 02:20:57.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 couldn't take Pyromancer's heat
 [09May2025 02:24:47.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Cover Me with Diamonds]
+[09May2025 02:30:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-51, y=-58, z=8}
+[09May2025 02:30:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=8}
+[09May2025 02:30:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-49, y=-58, z=3}
+[09May2025 02:30:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=3}
+[09May2025 02:30:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-49, y=-58, z=-1}
+[09May2025 02:30:25.803] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=-1}
+[09May2025 02:30:26.614] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=9}
+[09May2025 02:30:26.614] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=9}
+[09May2025 02:30:26.614] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=0}
+[09May2025 02:30:26.614] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=0}
+[09May2025 02:30:26.614] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=4}
+[09May2025 02:30:26.614] [Worker-Main-88/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=4}
+[09May2025 02:30:28.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-38, y=-58, z=9}
+[09May2025 02:30:28.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-40, y=-58, z=9}
+[09May2025 02:30:28.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-36, y=-58, z=0}
+[09May2025 02:30:28.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-42, y=-58, z=0}
+[09May2025 02:30:28.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-36, y=-58, z=4}
+[09May2025 02:30:28.331] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-42, y=-58, z=4}
+[09May2025 02:30:32.189] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:30:32.189] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:30:32.189] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:30:32.189] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:30:38.539] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-101, y=-58, z=9}
+[09May2025 02:30:38.539] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-58, z=9}
+[09May2025 02:30:38.539] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-97, y=-58, z=4}
+[09May2025 02:30:38.539] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-103, y=-58, z=4}
+[09May2025 02:30:38.539] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-103, y=-58, z=0}
+[09May2025 02:30:38.539] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-97, y=-58, z=0}
+[09May2025 02:30:42.101] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=202, y=47, z=211}
+[09May2025 02:30:44.333] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=9}
+[09May2025 02:30:44.333] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=9}
+[09May2025 02:30:44.334] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=0}
+[09May2025 02:30:44.334] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=0}
+[09May2025 02:30:44.334] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=4}
+[09May2025 02:30:44.334] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=4}
+[09May2025 02:30:46.713] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-68, y=-58, z=9}
+[09May2025 02:30:46.713] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-70, y=-58, z=9}
+[09May2025 02:30:46.713] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-66, y=-58, z=0}
+[09May2025 02:30:46.713] [Worker-Main-97/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-66, y=-58, z=4}
+[09May2025 02:32:55.464] [Worker-Main-87/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:33:15.256] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:33:15.257] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:33:15.257] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:33:15.258] [Worker-Main-88/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09May2025 02:33:55.660] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-68, y=-58, z=9}
+[09May2025 02:33:55.661] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-70, y=-58, z=9}
+[09May2025 02:33:55.661] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-66, y=-58, z=0}
+[09May2025 02:33:55.661] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-66, y=-58, z=4}

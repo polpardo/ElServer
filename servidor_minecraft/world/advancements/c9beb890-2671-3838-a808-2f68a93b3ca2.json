@@ -4431,9 +4431,27 @@
     },
     "done": false
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-05-09 02:24:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-05-09 02:26:31 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2025-05-09 02:10:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-05-09 02:26:31 +0000"
     },
     "done": true
   },
