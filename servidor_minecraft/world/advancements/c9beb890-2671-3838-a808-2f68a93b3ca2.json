@@ -88,6 +88,7 @@
       "jacaranda_glade": "2025-05-06 00:37:33 +0000",
       "marsh": "2025-05-08 00:57:45 +0000",
       "mystic_grove": "2025-05-06 00:55:55 +0000",
+      "cold_desert": "2025-05-09 01:12:33 +0000",
       "old_growth_woodland": "2025-05-07 23:24:35 +0000",
       "orchard": "2025-05-06 00:41:26 +0000",
       "field": "2025-05-09 00:59:33 +0000",
@@ -109,7 +110,8 @@
       "prairie": "2025-05-05 23:55:05 +0000",
       "grassland": "2025-05-09 00:58:03 +0000",
       "gravel_beach": "2025-05-08 00:54:26 +0000",
-      "rainforest": "2025-05-07 23:26:13 +0000"
+      "rainforest": "2025-05-07 23:26:13 +0000",
+      "ominous_woods": "2025-05-09 01:07:50 +0000"
     },
     "done": false
   },
@@ -380,13 +382,19 @@
       "minecraft:lukewarm_ocean": "2025-05-06 00:52:36 +0000",
       "minecraft:river": "2025-05-06 00:10:48 +0000",
       "minecraft:stony_shore": "2025-05-08 01:02:38 +0000",
+      "minecraft:snowy_plains": "2025-05-09 01:12:52 +0000",
       "minecraft:cold_ocean": "2025-05-08 00:50:51 +0000",
       "minecraft:forest": "2025-05-08 00:14:21 +0000",
       "minecraft:deep_cold_ocean": "2025-05-08 00:46:35 +0000",
+      "minecraft:ice_spikes": "2025-05-09 01:13:36 +0000",
+      "minecraft:frozen_ocean": "2025-05-09 01:11:38 +0000",
+      "minecraft:deep_frozen_ocean": "2025-05-09 01:23:31 +0000",
       "minecraft:ocean": "2025-05-06 00:51:59 +0000",
       "minecraft:jungle": "2025-05-08 00:20:32 +0000",
+      "minecraft:snowy_beach": "2025-05-09 01:11:39 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:30 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-08 00:59:42 +0000",
+      "minecraft:meadow": "2025-05-09 01:02:14 +0000",
       "minecraft:savanna": "2025-05-08 01:12:15 +0000"
     },
     "done": false
@@ -3839,9 +3847,27 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/umbran_planks": {
+    "criteria": {
+      "has_logs": "2025-05-09 01:07:49 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/get_rich_soil": {
     "criteria": {
       "get_rich_soil": "2025-05-09 00:51:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-05-09 01:02:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
     },
     "done": true
   },
@@ -3851,9 +3877,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/place_organic_compost": {
     "criteria": {
       "place_organic_compost": "2025-05-09 00:51:17 +0000"
+    },
+    "done": true
+  },
+  "create_ltab:ruin": {
+    "criteria": {
+      "Structure": "2025-05-09 01:12:56 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/combat/gadgets/shuriken/flint_shuriken": {
+    "criteria": {
+      "has_item": "2025-05-09 01:02:57 +0000"
     },
     "done": true
   },
@@ -3869,15 +3919,165 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/hot_cocoa": {
     "criteria": {
       "has_any_ingredient": "2025-05-09 00:55:28 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "create_ltab:cold": {
+    "criteria": {
+      "snowblock": "2025-05-09 01:12:03 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/froststalker_kill": {
+    "criteria": {
+      "ex": "2025-05-09 01:20:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-05-09 01:04:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_wood": {
+    "criteria": {
+      "has_log": "2025-05-09 01:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-05-09 01:08:03 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/wine_press": {
+    "criteria": {
+      "has_iron_trapdoor": "2025-05-09 01:24:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-05-09 01:20:52 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/white_dye_from_tall_white_lavender": {
+    "criteria": {
+      "has_tall_white_lavender": "2025-05-09 01:07:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_planks": {
+    "criteria": {
+      "has_logs": "2025-05-09 01:09:02 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/dead_wood": {
+    "criteria": {
+      "has_log": "2025-05-09 01:09:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-05-09 01:13:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-05-09 00:49:46 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/flint": {
+    "criteria": {
+      "has_item": "2025-05-09 01:13:58 +0000"
     },
     "done": true
   },
