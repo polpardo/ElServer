@@ -545,3 +545,6 @@
 [10May2025 02:34:14.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Carbonated Swim]
 [10May2025 02:37:26.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Diamonds!]
 [10May2025 02:43:48.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone moved too quickly! 9.72232594408797,-1.0,2.4896879557168177
+[10May2025 02:46:12.753] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone was kicked for floating too long!
+[10May2025 02:46:12.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone lost connection: Flying is not enabled on this server
+[10May2025 02:46:12.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone left the game
