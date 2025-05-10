@@ -2870,21 +2870,57 @@
     },
     "done": false
   },
-  "farmersdelight:recipes/cooking/mushroom_rice": {
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
-      "has_any_ingredient": "2025-05-09 23:11:19 +0000"
+      "has_kelp": "2025-05-09 22:48:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-05-09 22:48:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-05-09 22:48:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-05-09 22:58:43 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_daffodil": {
+    "criteria": {
+      "has_pink_daffodil": "2025-05-09 23:04:07 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/hollow_dark_oak_log": {
+    "criteria": {
+      "has_dark_oak_log": "2025-05-09 23:08:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-05-09 23:08:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-09 23:08:17 +0000"
     },
     "done": true
   },
   "create:recipes/building_blocks/dark_oak_window": {
     "criteria": {
       "has_ingredient": "2025-05-09 23:09:33 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-09 23:11:19 +0000"
     },
     "done": true
   },
@@ -2918,12 +2954,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2025-05-09 22:48:28 +0000"
-    },
-    "done": true
-  },
   "excessive_building:recipes/building_blocks/dark_oak_decorative_shelf": {
     "criteria": {
       "has_dark_oak_planks": "2025-05-09 23:09:33 +0000"
@@ -2933,18 +2963,6 @@
   "mca:recipes/decorations/pink_dark_oak_crib": {
     "criteria": {
       "has_dark_oak_planks": "2025-05-09 23:09:33 +0000"
-    },
-    "done": true
-  },
-  "excessive_building:recipes/building_blocks/hollow_dark_oak_log": {
-    "criteria": {
-      "has_dark_oak_log": "2025-05-09 23:08:17 +0000"
-    },
-    "done": true
-  },
-  "vinery:recipes/flower_box": {
-    "criteria": {
-      "has_podzol": "2025-05-09 23:18:01 +0000"
     },
     "done": true
   },
@@ -2960,12 +2978,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2025-05-09 22:48:28 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-09 23:09:33 +0000"
@@ -2975,24 +2987,6 @@
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-05-09 23:09:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-05-09 22:48:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2025-05-09 23:20:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2025-05-09 23:11:19 +0000"
     },
     "done": true
   },
@@ -3020,21 +3014,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/misc/pink_dye_from_pink_daffodil": {
-    "criteria": {
-      "has_pink_daffodil": "2025-05-09 23:04:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-05-09 23:09:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_allium": {
-    "criteria": {
-      "has_allium": "2025-05-09 22:58:43 +0000"
     },
     "done": true
   },
@@ -3062,12 +3044,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2025-05-09 23:08:17 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/blue_dark_oak_crib": {
     "criteria": {
       "has_dark_oak_planks": "2025-05-09 23:09:33 +0000"
@@ -3083,18 +3059,6 @@
   "mca:recipes/decorations/green_dark_oak_crib": {
     "criteria": {
       "has_dark_oak_planks": "2025-05-09 23:09:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2025-05-09 23:08:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone": {
-    "criteria": {
-      "has_sand": "2025-05-09 23:20:04 +0000"
     },
     "done": true
   },
@@ -3125,6 +3089,42 @@
   "mca:recipes/decorations/yellow_dark_oak_crib": {
     "criteria": {
       "has_dark_oak_planks": "2025-05-09 23:09:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 23:11:19 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 23:11:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-05-09 23:11:19 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/flower_box": {
+    "criteria": {
+      "has_podzol": "2025-05-09 23:18:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-05-09 23:20:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-05-09 23:20:04 +0000"
     },
     "done": true
   },
