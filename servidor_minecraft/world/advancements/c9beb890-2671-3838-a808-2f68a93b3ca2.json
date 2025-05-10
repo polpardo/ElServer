@@ -4615,6 +4615,12 @@
     },
     "done": true
   },
+  "the_pillager_legion_:achiv_kill_1_legionnaire_tpl": {
+    "criteria": {
+      "achiv_kill_1_legionnaire_tpl_0": "2025-05-10 01:31:09 +0000"
+    },
+    "done": true
+  },
   "mowziesmobs:kill_umvuthana_raptor": {
     "criteria": {
       "umvuthana_raptor": "2025-05-10 00:27:21 +0000"
@@ -4654,6 +4660,12 @@
   "create:recipes/misc/crafting/kinetics/rope_pulley": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-05-10 01:29:04 +0000"
     },
     "done": true
   },
@@ -4909,6 +4921,12 @@
     },
     "done": true
   },
+  "the_pillager_legion_:achiv_get_glorius_legion": {
+    "criteria": {
+      "achiv_get_glorius_legion_0": "2025-05-10 01:32:16 +0000"
+    },
+    "done": true
+  },
   "create:recipes/decorations/andesite_bars_from_andesite_alloy_stonecutting": {
     "criteria": {
       "has_andesite_alloy": "2025-05-09 23:44:49 +0000"
@@ -4936,6 +4954,12 @@
   "excessive_building:recipes/building_blocks/hollow_spruce_log": {
     "criteria": {
       "has_spruce_log": "2025-05-09 23:52:06 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed_by": "2025-05-10 01:28:03 +0000"
     },
     "done": true
   },
@@ -5052,6 +5076,12 @@
       "has_sign": "2025-05-10 00:16:55 +0000"
     },
     "done": true
+  },
+  "the_pillager_legion_:achiv_get_legion_armor": {
+    "criteria": {
+      "achiv_get_legion_armor_0": "2025-05-10 01:32:17 +0000"
+    },
+    "done": false
   },
   "create:recipes/misc/crafting/kinetics/filter": {
     "criteria": {

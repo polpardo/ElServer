@@ -50,16 +50,20 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "woodland": "2025-05-10 01:22:26 +0000",
+      "fungal_jungle": "2025-05-10 01:26:45 +0000",
+      "floodplain": "2025-05-10 01:23:27 +0000",
       "jacaranda_glade": "2025-05-06 00:37:36 +0000",
       "mystic_grove": "2025-05-06 00:55:55 +0000",
       "old_growth_woodland": "2025-05-07 23:36:55 +0000",
       "orchard": "2025-05-06 00:42:34 +0000",
       "coniferous_forest": "2025-05-06 00:40:04 +0000",
       "spider_nest": "2025-05-06 00:33:49 +0000",
+      "lush_desert": "2025-05-10 01:27:12 +0000",
       "redwood_forest": "2025-05-06 00:41:14 +0000",
       "aspen_glade": "2025-05-06 00:39:26 +0000",
       "dune_beach": "2025-05-06 00:49:48 +0000",
       "pasture": "2025-05-06 00:36:25 +0000",
+      "volcanic_plains": "2025-05-10 01:23:47 +0000",
       "lavender_field": "2025-05-06 00:37:09 +0000",
       "pumpkin_patch": "2025-05-06 00:39:44 +0000",
       "prairie": "2025-05-06 00:18:00 +0000"
@@ -99,11 +103,14 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2025-05-06 00:52:22 +0000",
+      "minecraft:wooded_badlands": "2025-05-10 01:28:40 +0000",
       "minecraft:beach": "2025-05-10 01:18:58 +0000",
+      "minecraft:sparse_jungle": "2025-05-10 01:25:24 +0000",
       "minecraft:river": "2025-05-06 00:20:47 +0000",
       "minecraft:lukewarm_ocean": "2025-05-06 00:52:36 +0000",
       "minecraft:stony_shore": "2025-05-07 23:37:11 +0000",
       "minecraft:ocean": "2025-05-06 00:52:00 +0000",
+      "minecraft:jungle": "2025-05-10 01:25:07 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:31 +0000"
     },
     "done": false
@@ -3136,9 +3143,51 @@
     },
     "done": true
   },
+  "the_pillager_legion_:achiv_kill_1_legionnaire_tpl": {
+    "criteria": {
+      "achiv_kill_1_legionnaire_tpl_0": "2025-05-10 01:30:59 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-05-10 01:28:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-05-10 01:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-05-10 01:30:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-05-10 01:30:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
       "has_coast_armor_trim_smithing_template": "2025-05-10 01:18:18 +0000"
+    },
+    "done": true
+  },
+  "the_pillager_legion_:achiv_get_glorius_legion": {
+    "criteria": {
+      "achiv_get_glorius_legion_0": "2025-05-10 01:31:04 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed_by": "2025-05-10 01:27:49 +0000"
     },
     "done": true
   },
@@ -3163,6 +3212,12 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2025-05-10 01:30:18 +0000"
     },
     "done": true
   },
