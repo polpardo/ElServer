@@ -28742,3 +28742,13 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [10May2025 02:07:29.858] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10May2025 02:12:29.843] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10May2025 02:12:29.861] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 02:17:29.824] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10May2025 02:17:29.842] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 02:17:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Sneak 100]
+[10May2025 02:19:04.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has reached the goal [Pure Imagination]
+[10May2025 02:20:27.803] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[10May2025 02:20:27.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[10May2025 02:21:49.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Sneak 100]
+[10May2025 02:22:29.819] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10May2025 02:22:29.837] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 02:23:24.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has reached the goal [Pure Imagination]

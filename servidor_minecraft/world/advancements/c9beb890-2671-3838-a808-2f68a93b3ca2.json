@@ -402,6 +402,7 @@
       "minecraft:snowy_beach": "2025-05-09 01:11:39 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:30 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-08 00:59:42 +0000",
+      "minecraft:deep_dark": "2025-05-10 02:15:15 +0000",
       "minecraft:meadow": "2025-05-09 01:02:14 +0000",
       "minecraft:savanna": "2025-05-08 01:12:15 +0000",
       "minecraft:plains": "2025-05-10 00:00:11 +0000"
@@ -5729,6 +5730,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/discover_candy_cavity": {
+    "criteria": {
+      "discover": "2025-05-10 02:19:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-05-10 02:07:15 +0000"
@@ -5870,6 +5877,12 @@
   "irons_spellbooks:irons_spellbooks/spell_book_equip": {
     "criteria": {
       "requirement": "2025-05-10 01:57:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-05-10 02:17:58 +0000"
     },
     "done": true
   },

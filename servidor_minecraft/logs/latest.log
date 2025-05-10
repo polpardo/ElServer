@@ -525,3 +525,9 @@
 [10May2025 01:59:33.853] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [10May2025 02:00:55.363] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.100.236.75:12631] logged in with entity id 117766 at (3203.515257984723, -2.0, 2461.183758733673)
 [10May2025 02:00:55.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[10May2025 02:17:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Sneak 100]
+[10May2025 02:19:04.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has reached the goal [Pure Imagination]
+[10May2025 02:20:27.803] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[10May2025 02:20:27.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[10May2025 02:21:49.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Sneak 100]
+[10May2025 02:23:24.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has reached the goal [Pure Imagination]
