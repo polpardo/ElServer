@@ -531,3 +531,15 @@
 [10May2025 02:20:27.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
 [10May2025 02:21:49.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Sneak 100]
 [10May2025 02:23:24.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has reached the goal [Pure Imagination]
+[10May2025 02:25:44.769] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-262, y=-53, z=-36}
+[10May2025 02:25:44.770] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-260, y=-53, z=-36}
+[10May2025 02:25:44.770] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-258, y=-53, z=-34}
+[10May2025 02:25:44.770] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-258, y=-53, z=-32}
+[10May2025 02:25:44.770] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-260, y=-53, z=-30}
+[10May2025 02:25:44.770] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-262, y=-53, z=-30}
+[10May2025 02:25:44.810] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-264, y=-53, z=-34}
+[10May2025 02:25:44.810] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-264, y=-53, z=-32}
+[10May2025 02:25:45.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Disme A Dozen]
+[10May2025 02:30:03.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Cover Me with Diamonds]
+[10May2025 02:30:25.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Amateur Archaeologist]
+[10May2025 02:34:14.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Carbonated Swim]
