@@ -28324,3 +28324,11 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [10May2025 01:07:25.757] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [10May2025 01:12:25.728] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10May2025 01:12:25.747] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 01:14:40.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Isn't It Iron Pick]
+[10May2025 01:17:25.731] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10May2025 01:17:25.750] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 01:18:14.811] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AppendLootModifier.doApply irons_spellbooks:chests/additional_generic_loot
+[10May2025 01:18:14.816] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4125ms or 82 ticks behind
+[10May2025 01:21:39.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Not Today, Thank You]
+[10May2025 01:22:29.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10May2025 01:22:29.855] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

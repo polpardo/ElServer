@@ -49,6 +49,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "woodland": "2025-05-10 01:22:26 +0000",
       "jacaranda_glade": "2025-05-06 00:37:36 +0000",
       "mystic_grove": "2025-05-06 00:55:55 +0000",
       "old_growth_woodland": "2025-05-07 23:36:55 +0000",
@@ -98,6 +99,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2025-05-06 00:52:22 +0000",
+      "minecraft:beach": "2025-05-10 01:18:58 +0000",
       "minecraft:river": "2025-05-06 00:20:47 +0000",
       "minecraft:lukewarm_ocean": "2025-05-06 00:52:36 +0000",
       "minecraft:stony_shore": "2025-05-07 23:37:11 +0000",
@@ -3128,6 +3130,18 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-10 01:21:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-05-10 01:18:18 +0000"
+    },
+    "done": true
+  },
   "mca:recipes/misc/family_tree": {
     "criteria": {
       "has_item": "2025-05-10 01:09:01 +0000"
@@ -3140,9 +3154,21 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-05-10 01:14:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-10 01:18:18 +0000"
     },
     "done": true
   },

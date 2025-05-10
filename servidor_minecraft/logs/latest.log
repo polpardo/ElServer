@@ -478,3 +478,6 @@
 [10May2025 00:56:55.433] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-58, z=4}
 [10May2025 01:03:37.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone moved too quickly! 6.332887838032548,1.083077817806469,-7.728250799752004
 [10May2025 01:07:20.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone moved too quickly! -1.4425421159523921,2.495200877005928,-9.703277286535013
+[10May2025 01:14:40.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Isn't It Iron Pick]
+[10May2025 01:18:14.816] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4125ms or 82 ticks behind
+[10May2025 01:21:39.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Not Today, Thank You]

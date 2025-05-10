@@ -1163,6 +1163,7 @@
       "minecraft:spider": "2025-05-06 00:16:22 +0000",
       "minecraft:creeper": "2025-05-09 22:41:31 +0000",
       "minecraft:cave_spider": "2025-05-06 00:33:49 +0000",
+      "minecraft:enderman": "2025-05-10 01:19:43 +0000",
       "minecraft:zombie": "2025-05-06 00:21:34 +0000",
       "minecraft:drowned": "2025-05-06 01:01:41 +0000"
     },
@@ -3157,6 +3158,7 @@
   },
   "tconstruct:world/ancient_tools": {
     "criteria": {
+      "swasher": "2025-05-10 01:16:11 +0000",
       "war_pick": "2025-05-07 23:30:20 +0000"
     },
     "done": false
@@ -3177,7 +3179,9 @@
       "skyslime_vine": "2025-05-07 23:33:58 +0000",
       "vine": "2025-05-07 23:34:14 +0000",
       "blazing_bone": "2025-05-07 23:34:14 +0000",
+      "bone": "2025-05-10 01:16:11 +0000",
       "hepatizon": "2025-05-07 23:30:20 +0000",
+      "bamboo": "2025-05-10 01:16:11 +0000",
       "iron": "2025-05-07 23:34:14 +0000",
       "chorus": "2025-05-07 23:33:58 +0000"
     },
@@ -4623,6 +4627,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/tnt_from_bop_sand": {
+    "criteria": {
+      "has_gunpowder": "2025-05-10 01:19:15 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/decorations/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2025-05-10 00:16:55 +0000"
@@ -4734,6 +4744,12 @@
   "mca:recipes/decorations/pink_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
+    "criteria": {
+      "has_jukebox_upgrade": "2025-05-10 01:21:01 +0000"
     },
     "done": true
   },
@@ -4908,6 +4924,12 @@
   "mowziesmobs:sneak_grove": {
     "criteria": {
       "sneak_grove": "2025-05-10 00:11:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-05-10 01:19:15 +0000"
     },
     "done": true
   },
@@ -5298,6 +5320,12 @@
   "securitycraft:recipes/decorations/secret_warped_sign_item": {
     "criteria": {
       "has_sign": "2025-05-10 00:16:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-05-10 01:19:15 +0000"
     },
     "done": true
   },
