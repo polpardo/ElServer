@@ -109,6 +109,8 @@
       "minecraft:river": "2025-05-06 00:20:47 +0000",
       "minecraft:lukewarm_ocean": "2025-05-06 00:52:36 +0000",
       "minecraft:stony_shore": "2025-05-07 23:37:11 +0000",
+      "minecraft:dripstone_caves": "2025-05-10 01:54:19 +0000",
+      "minecraft:lush_caves": "2025-05-10 01:54:24 +0000",
       "minecraft:ocean": "2025-05-06 00:52:00 +0000",
       "minecraft:jungle": "2025-05-10 01:25:07 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-05-06 00:52:31 +0000"
@@ -1169,7 +1171,8 @@
       "minecraft:vindicator": "2025-05-06 00:45:26 +0000",
       "minecraft:spider": "2025-05-10 01:40:13 +0000",
       "minecraft:enderman": "2025-05-09 23:18:01 +0000",
-      "minecraft:zombie": "2025-05-06 00:39:03 +0000"
+      "minecraft:zombie": "2025-05-06 00:39:03 +0000",
+      "minecraft:drowned": "2025-05-10 01:56:04 +0000"
     },
     "done": false
   },
@@ -3138,21 +3141,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/acacia_button": {
+  "mca:recipes/misc/family_tree": {
     "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
+      "has_item": "2025-05-10 01:09:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
-      "has_emerald_block": "2025-05-10 01:33:59 +0000"
+      "has_potato": "2025-05-10 01:09:26 +0000"
     },
     "done": true
   },
-  "mca:recipes/decorations/blue_acacia_crib": {
+  "minecraft:recipes/food/baked_potato": {
     "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+      "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-05-10 01:14:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-05-10 01:18:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-10 01:18:18 +0000"
     },
     "done": true
   },
@@ -3162,15 +3189,9 @@
     },
     "done": true
   },
-  "the_pillager_legion_:achiv_kill_1_legionnaire_tpl": {
+  "alexsmobs:alexsmobs/kangaroo": {
     "criteria": {
-      "achiv_kill_1_legionnaire_tpl_0": "2025-05-10 01:30:59 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/black_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+      "killed_by": "2025-05-10 01:27:49 +0000"
     },
     "done": true
   },
@@ -3186,21 +3207,243 @@
     },
     "done": true
   },
-  "vinery:recipes/spruce_wine_rack_big": {
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
-      "has_spruce_planks": "2025-05-10 01:34:39 +0000"
+      "has_raw_gold": "2025-05-10 01:30:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+  "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
-      "has_gold_ore": "2025-05-10 01:41:05 +0000"
+      "has_raw_gold": "2025-05-10 01:30:18 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2025-05-10 01:30:18 +0000"
+    },
+    "done": true
+  },
+  "the_pillager_legion_:achiv_kill_1_legionnaire_tpl": {
+    "criteria": {
+      "achiv_kill_1_legionnaire_tpl_0": "2025-05-10 01:30:59 +0000"
+    },
+    "done": true
+  },
+  "the_pillager_legion_:achiv_get_glorius_legion": {
+    "criteria": {
+      "achiv_get_glorius_legion_0": "2025-05-10 01:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/blue_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/black_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
   "vinery:recipes/acacia_wine_rack_small": {
     "criteria": {
       "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_gray_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/acacia_window": {
+    "criteria": {
+      "has_ingredient": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/orange_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_blue_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/acacia_decorative_shelf": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/green_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/acacia_wine_rack_big": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/brown_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/cyan_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/lime_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/magenta_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/gray_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/white_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/yellow_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/pink_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/purple_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/red_acacia_crib": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-05-10 01:33:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-05-10 01:33:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-05-10 01:33:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-05-10 01:33:59 +0000"
+    },
+    "done": true
+  },
+  "the_pillager_legion_:achiv_get_showel_tpl": {
+    "criteria": {
+      "achiv_get_showel_tpl_0": "2025-05-10 01:34:09 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/spruce_wine_rack_big": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 01:34:39 +0000"
     },
     "done": true
   },
@@ -3234,21 +3477,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_stairs": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
   "vinery:recipes/grapevine_pot": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/acacia_door": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
@@ -3270,12 +3501,6 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/light_gray_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
   "vinery:recipes/dark_cherry_shelf": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
@@ -3288,39 +3513,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-05-10 01:30:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
-    "criteria": {
-      "has_raw_copper": "2025-05-10 01:33:25 +0000"
-    },
-    "done": true
-  },
   "excessive_building:recipes/building_blocks/spruce_decorative_shelf": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_copper_block": {
-    "criteria": {
-      "has_raw_copper": "2025-05-10 01:33:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2025-05-10 01:30:18 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/acacia_window": {
-    "criteria": {
-      "has_ingredient": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
@@ -3330,33 +3525,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
-    "criteria": {
-      "has_gold_ore": "2025-05-10 01:41:05 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/orange_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/acacia_sign": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/light_gray_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2025-05-10 01:18:18 +0000"
     },
     "done": true
   },
@@ -3366,63 +3537,9 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/light_blue_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/black_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "excessive_building:recipes/building_blocks/acacia_decorative_shelf": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "the_pillager_legion_:achiv_get_glorius_legion": {
-    "criteria": {
-      "achiv_get_glorius_legion_0": "2025-05-10 01:31:04 +0000"
-    },
-    "done": true
-  },
-  "the_pillager_legion_:achiv_get_axe_tpl": {
-    "criteria": {
-      "achiv_get_axe_tpl_0": "2025-05-10 01:38:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/green_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/kangaroo": {
-    "criteria": {
-      "killed_by": "2025-05-10 01:27:49 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/family_tree": {
-    "criteria": {
-      "has_item": "2025-05-10 01:09:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
-    "criteria": {
-      "has_potato": "2025-05-10 01:09:26 +0000"
-    },
-    "done": true
-  },
-  "vinery:recipes/acacia_wine_rack_big": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
@@ -3432,57 +3549,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/acacia_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/brown_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "the_pillager_legion_:achiv_get_showel_tpl": {
-    "criteria": {
-      "achiv_get_showel_tpl_0": "2025-05-10 01:34:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2025-05-10 01:14:40 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/magenta_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_slab": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/cyan_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2025-05-10 01:09:26 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/rose_gold_dust": {
-    "criteria": {
-      "has_item": "2025-05-10 01:30:18 +0000"
     },
     "done": true
   },
@@ -3492,39 +3561,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/acacia_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/lime_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/purple_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-05-10 01:18:18 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/cyan_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/acacia_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
@@ -3540,33 +3585,9 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/magenta_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "the_pillager_legion_:achiv_kill_10_legionnaire_tpl": {
-    "criteria": {
-      "achiv_kill_10_legionnaire_tpl_0": "2025-05-10 01:39:05 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/brown_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2025-05-10 01:09:26 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/gray_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
@@ -3588,27 +3609,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/acacia_fence": {
-    "criteria": {
-      "has_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/decorations/gray_spruce_crib": {
     "criteria": {
       "has_spruce_planks": "2025-05-10 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/white_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/decorations/yellow_acacia_crib": {
-    "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
     },
     "done": true
   },
@@ -3624,27 +3627,273 @@
     },
     "done": true
   },
-  "mca:recipes/decorations/pink_acacia_crib": {
+  "the_pillager_legion_:achiv_get_axe_tpl": {
     "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+      "achiv_get_axe_tpl_0": "2025-05-10 01:38:53 +0000"
     },
     "done": true
   },
-  "mca:recipes/decorations/purple_acacia_crib": {
+  "the_pillager_legion_:achiv_kill_10_legionnaire_tpl": {
     "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+      "achiv_kill_10_legionnaire_tpl_0": "2025-05-10 01:39:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
     "criteria": {
-      "has_raw_copper": "2025-05-10 01:33:25 +0000"
+      "has_gold_ore": "2025-05-10 01:41:05 +0000"
     },
     "done": true
   },
-  "mca:recipes/decorations/red_acacia_crib": {
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
     "criteria": {
-      "has_acacia_planks": "2025-05-10 01:32:47 +0000"
+      "has_gold_ore": "2025-05-10 01:41:05 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2025-05-10 01:42:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/steam_whistle": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/steam_engine": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/common/copper_platform": {
+    "criteria": {
+      "has_bars": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/combat/tools/armor/travelers_boots": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copper_tiles_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_diving_helmet": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/combat/tools/armor/travelers_chestplate": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_pipe_vertical": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_diving_boots": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_table_cloth_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/materials/copper_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/smeltery/copper_can": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/combat/tools/armor/travelers_pants": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_bars_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/combat/tools/armor/travelers_goggles": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/copper_nugget": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copper_shingles_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/transmitter": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_ladder_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_scaffolding_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2025-05-10 01:43:02 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-05-10 01:43:33 +0000"
     },
     "done": true
   },

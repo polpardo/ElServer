@@ -496,3 +496,32 @@
 [10May2025 01:40:29.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [I think we have a problem ?!]
 [10May2025 01:40:36.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Sharp axe !]
 [10May2025 01:41:14.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Nice Pickaxe !]
+[10May2025 01:44:52.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[10May2025 01:44:52.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[10May2025 01:45:11.222] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Agus2000[/100.111.81.7:54760] logged in with entity id 114096 at (2912.062461083382, 131.0, 2505.699999988079)
+[10May2025 01:45:11.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 joined the game
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-56, z=-34}
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-56, z=-34}
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=-56, z=-35}
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=-56, z=-37}
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-56, z=-38}
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-56, z=-38}
+[10May2025 01:56:33.430] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-279, y=-56, z=-35}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-279, y=-56, z=-37}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-41, z=-34}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-41, z=-34}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=-41, z=-35}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=-41, z=-37}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-41, z=-38}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-41, z=-38}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-279, y=-41, z=-37}
+[10May2025 01:56:33.431] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-279, y=-41, z=-35}
+[10May2025 01:56:44.230] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-58, z=-32}
+[10May2025 01:56:44.306] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-58, z=-42}
+[10May2025 01:56:56.016] [Worker-Main-28/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=-58, z=-35}
+[10May2025 01:57:42.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Magery]
+[10May2025 01:59:33.758] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone lost connection: Disconnected
+[10May2025 01:59:33.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone left the game
+[10May2025 01:59:33.853] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10May2025 02:00:55.363] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.100.236.75:12631] logged in with entity id 117766 at (3203.515257984723, -2.0, 2461.183758733673)
+[10May2025 02:00:55.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
