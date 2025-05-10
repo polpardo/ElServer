@@ -548,3 +548,14 @@
 [10May2025 02:46:12.753] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone was kicked for floating too long!
 [10May2025 02:46:12.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone lost connection: Flying is not enabled on this server
 [10May2025 02:46:12.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone left the game
+[10May2025 03:11:38.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10May2025 03:11:38.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10May2025 03:11:38.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10May2025 03:11:38.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10May2025 03:11:38.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10May2025 03:11:39.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10May2025 03:11:39.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10May2025 03:11:39.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10May2025 03:11:39.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10May2025 03:11:39.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10May2025 03:11:39.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
