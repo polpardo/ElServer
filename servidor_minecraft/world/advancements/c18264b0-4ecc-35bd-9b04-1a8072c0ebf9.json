@@ -3128,5 +3128,29 @@
     },
     "done": true
   },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2025-05-10 01:09:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-05-10 01:09:26 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

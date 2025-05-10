@@ -100,6 +100,7 @@
       "coniferous_forest": "2025-05-06 00:40:03 +0000",
       "spider_nest": "2025-05-06 00:10:12 +0000",
       "forested_field": "2025-05-09 00:59:46 +0000",
+      "dryland": "2025-05-10 00:34:18 +0000",
       "wasteland": "2025-05-07 23:51:06 +0000",
       "lush_desert": "2025-05-07 23:47:11 +0000",
       "redwood_forest": "2025-05-06 00:41:08 +0000",
@@ -379,6 +380,7 @@
       "minecraft:birch_forest": "2025-05-08 01:00:08 +0000",
       "minecraft:bamboo_jungle": "2025-05-08 00:20:20 +0000",
       "minecraft:wooded_badlands": "2025-05-08 00:26:32 +0000",
+      "minecraft:badlands": "2025-05-10 00:30:46 +0000",
       "minecraft:savanna_plateau": "2025-05-09 00:48:36 +0000",
       "minecraft:beach": "2025-05-07 23:23:36 +0000",
       "minecraft:dark_forest": "2025-05-08 00:58:09 +0000",
@@ -4591,6 +4593,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/misc/common/slime/sky/crystal_smelting": {
+    "criteria": {
+      "has_crystal": "2025-05-10 00:31:14 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/chute": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
@@ -4600,6 +4608,12 @@
   "create:recipes/misc/crafting/kinetics/wrench": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthana_raptor": {
+    "criteria": {
+      "umvuthana_raptor": "2025-05-10 00:27:21 +0000"
     },
     "done": true
   },
@@ -4633,6 +4647,12 @@
     },
     "done": true
   },
+  "vinery:recipes/spruce_wine_rack_big": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
     "criteria": {
       "has_item": "2025-05-09 23:50:47 +0000"
@@ -4657,9 +4677,33 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/red_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/orange_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/yellow_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/gearbox": {
     "criteria": {
       "has_item": "2025-05-09 23:52:18 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/spruce_wine_rack_small": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4687,9 +4731,27 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/pink_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/large_water_wheel": {
     "criteria": {
       "has_item": "2025-05-09 23:45:09 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/grapevine_pot": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4705,6 +4767,12 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/white_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/decorations/secret_dark_oak_hanging_sign": {
     "criteria": {
       "has_sign": "2025-05-10 00:16:55 +0000"
@@ -4717,9 +4785,33 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/spruce_window": {
+    "criteria": {
+      "has_ingredient": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/dark_cherry_shelf": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "vinery:main/fruits_of_the_field": {
     "criteria": {
       "fruits_of_the_field": "2025-05-10 00:00:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "excessive_building:recipes/building_blocks/spruce_decorative_shelf": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4729,9 +4821,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/block_pocket_manager": {
     "criteria": {
       "has_redstone_block": "2025-05-09 23:52:51 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/light_gray_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4753,9 +4857,21 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/blue_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/crocodile": {
     "criteria": {
       "killed_by": "2025-05-09 23:38:44 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/black_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4837,6 +4953,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/building_blocks/common/slime/sky/crystal_block": {
+    "criteria": {
+      "has_item": "2025-05-10 00:31:14 +0000"
+    },
+    "done": true
+  },
   "create:recipes/decorations/andesite_scaffolding_from_andesite_alloy_stonecutting": {
     "criteria": {
       "has_andesite_alloy": "2025-05-09 23:44:49 +0000"
@@ -4867,6 +4989,12 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/light_blue_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/analog_lever": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
@@ -4891,6 +5019,12 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/magenta_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/decorations/secret_jungle_sign_item": {
     "criteria": {
       "has_sign": "2025-05-10 00:16:55 +0000"
@@ -4906,6 +5040,12 @@
   "create:recipes/misc/crafting/kinetics/white_sail": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4930,6 +5070,12 @@
   "minecraft:recipes/building_blocks/sponge": {
     "criteria": {
       "has_wet_sponge": "2025-05-09 22:59:34 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/purple_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -4969,9 +5115,27 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/cyan_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/windmill_bearing": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/green_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -5011,6 +5175,12 @@
     },
     "done": true
   },
+  "mca:recipes/decorations/brown_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/mechanical_mixer": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
@@ -5041,6 +5211,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/appliances/dough": {
     "criteria": {
       "has_item": "2025-05-09 23:46:58 +0000"
@@ -5065,6 +5253,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-05-10 00:58:27 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/gray_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
     "criteria": {
       "has_item": "2025-05-09 23:52:18 +0000"
@@ -5074,6 +5274,12 @@
   "create:recipes/misc/crafting/logistics/item_hatch": {
     "criteria": {
       "has_item": "2025-05-09 23:44:49 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/decorations/lime_spruce_crib": {
+    "criteria": {
+      "has_spruce_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
@@ -5092,6 +5298,12 @@
   "securitycraft:recipes/decorations/secret_warped_sign_item": {
     "criteria": {
       "has_sign": "2025-05-10 00:16:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-10 00:52:00 +0000"
     },
     "done": true
   },
