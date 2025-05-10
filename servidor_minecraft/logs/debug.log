@@ -28344,3 +28344,14 @@ com.google.gson.JsonSyntaxException: Unknown item 'excessive_building:cobbled_an
 [10May2025 01:32:16.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Small but fast ! ]
 [10May2025 01:32:29.828] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [10May2025 01:32:29.848] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 01:34:09.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Solid shovel !]
+[10May2025 01:37:29.833] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10May2025 01:37:29.853] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10May2025 01:38:53.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Sharp axe !]
+[10May2025 01:39:05.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [I think we have a problem ?!]
+[10May2025 01:39:55.304] [Worker-Main-28/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=201, y=51, z=176}
+[10May2025 01:40:29.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [I think we have a problem ?!]
+[10May2025 01:40:36.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Sharp axe !]
+[10May2025 01:41:14.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Nice Pickaxe !]
+[10May2025 01:42:29.836] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10May2025 01:42:29.858] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
